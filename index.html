@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/carrossel.css">
+    <link rel="stylesheet" href="styles/rodapé.css">
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="styles/Tópicos.css">
+    <link rel="stylesheet" href="styles/header.css">
+
+
+
+
+
+
+
+    <title>Bigger Batter Strong</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__div">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__label">
+                <span class="cabecalho__menu container__imagem" ></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categoris</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Arrumação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">O começo do final</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Estruturais</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design e xoxo</a>
+                </li>
+            </ul>
+            <img src="b.png" alt="logo Alura books" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo-negrito">BBS</b>LaivrosandMuvois</h1>
+        </div>
+
+        <ul class="option">
+            <input type="checkbox" id="option-menu" class="option__menu">
+            <label for="option-menu" class="option__label">
+                <li class="option__item">Categoris</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Arrumação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">O começo do final</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Estruturais</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design e XOXO</a>
+                </li>
+            </ul>
+            <li class="option__item"><a href="#" class="option__link">Goxxxxtei</a></li>
+            <li class="option__item"><a href="#" class="option__link">Minhas livrais</a></li>
+        </ul>
+
+        <div class="cabecalho__div">
+            <a href="#">
+                <img src="favoritos.png" alt="Favoritos" class="container__imagem container__imagem-none">
+            </a>
+            <a class="container__link" href="#">
+                <img src="saco.png" alt="sacola" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a class="container__link" href="#">
+                <img src="avatar.png" alt="usuario" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+
+    <section class="banner">
+        <h2 class="banner__titulo">Está a procura de um lrivos?</h2>
+        <p class="banner__texto">Encontre em todo o site oque você quer!</p>
+        <input class="banner__pesquisa" type="search" placeholder="Qual sera sua nova litirias?">
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="1livro avatar.png" alt=""></div>
+                <div class="swiper-slide"><img src="2livro avatra.png" alt=""></div>
+                <div class="swiper-slide"><img src="3livro avatar.png" alt=""></div>
+                <div class="swiper-slide"><img src="4livro avatar.png" alt=""></div>
+                <div class="swiper-slide"><img src="alejado.png" alt=""></div>
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        
+
+            <article class="cartao">
+                <div>
+                    <h3 class="cartao__titulo">Talvez você também se interesse por...</h3>
+                    <h3 class="cartao__subtitulo">Dragom Balls Z</h3>
+                    <p class="cartao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <button class="cartao__botao-favorito cartao__botao-favorito1"><img src="favoritos.png" alt=""></button>
+                    <button class="cartao__botao-favorito cartao__botao-favorito1"><img src="compras.png" alt=""></button>
+                </div>
+                <div>
+                    <img class="img__card" src="dra.jpg" alt="">
+                    <a class="botao__cartao" href="#">Saiba mais</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="vendidos">
+        <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="king.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="god.png" alt=""></div>
+                <div class="swiper-slide"><img src="filme.png" alt=""></div>
+                <div class="swiper-slide"><img src="dead.png" alt=""></div>
+                <div class="swiper-slide"><img src="sherek.png" alt=""></div>
+                <div class="swiper-slide"><img src="buuro.png" alt=""></div>
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+            <article class="cartao">
+                <div>
+                    <img class="cartao__estrelinhas" src="img/Estrelinhas.svg" alt="">
+                    <h3 class="cartao__titulo">Autora do Mês</h3>
+                    <h3 class="cartao__subtitulo">Visconde de Sabugosa</h3>
+                    <p class="cartao__texto">Ele é o super. Sabichão do Sítio. Erudito e atrapalhado, vive na biblioteca entre os livros, pesquisando e estudando sobre vários assuntos ou então fica em seu laboratório, localizado no porão da casa de Dona Benta, onde dá margem à sua criatividade para construir invenções.</p>
+                    <button class="cartao__botao-favorito"><img src="compras.png" alt=""></button>
+                    <button class="cartao__botao-favorito"><img src="saco.png" alt=""></button>
+                </div>
+                <div>
+                    <img class="img__card" src="img/Perfil-escritora 1.svg" alt="">
+                    <a class="botao__cartao" href="#">Saiba mais</a>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Celular</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Vadiagem</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Auleura</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Negocios</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Eletrons</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">PC</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Ramburguers</a>
+            </li>
+            <li class="topicos__item">
+                <a href="#" class="topicos__link">Sala de estar</a>
+            </li>
+        </ul>    
+    </section>
+
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das mais diversas livros!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e filmes.</p>
+        </div>
+        <input class="contato__email" type="email" placeholder="cadastre seu e-mail">
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Grupo Bigger Batter Strong</h2>
+
+        <ul class="lista__rodape">
+            <li class="lista__titulo">Educação</li>
+            <li class="lista__item">
+                <img src="img/Caelum.svg" alt="">
+                <a href="#" class="lista__link">Calegamento</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/CasaDoCodigo.svg" alt="">
+                <a href="#" class="lista__link">Casa da moeda</a>
+            </li>
+        </ul>
+
+        <ul class="lista__rodape">
+            <li class="lista__titulo">Reevoluçao humanitaria</li>
+            <li class="lista__item">
+                <img src="img/Alura.svg" alt="">
+                <a href="#" class="lista__link">BBS</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/AluraEmpresas.svg" alt="">
+                <a href="#" class="lista__link">BBS para empresas</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/AluraLatam.svg" alt="">
+                <a href="#" class="lista__link">BBS ONU</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/AluraStart.svg" alt="">
+                <a href="#" class="lista__link">BBS para LGBTQQICAAPF2K+</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/MusicDot.svg" alt="">
+                <a href="#" class="lista__link">MusicBBS</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/AluraLingua.svg" alt="">
+                <a href="#" class="lista__link">BBS Língua</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/PM3.svg" alt="">
+                <a href="#" class="lista__link">PS3</a>
+            </li>
+        </ul>
+
+        <ul class="lista__rodape">
+            <li class="lista__titulo">Comunidade</li>
+            <li class="lista__item">
+                <img src="img/HipstersJobs.svg" alt="">
+                <a href="#" class="lista__link">HIPER CALORICOS</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/Scuba.svg" alt="">
+                <a href="#" class="lista__link">BBSS</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/Layers.svg" alt="">
+                <a href="#" class="lista__link">BBS Tech</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/LikeABoss.svg" alt="">
+                <a href="#" class="lista__link">Like a Boss</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/CarreiraSemFronteira.svg" alt="">
+                <a href="#" class="lista__link">Carreira com BBS</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/HipstersJobs.svg" alt="">
+                <a href="#" class="lista__link">BSS ponto jobs</a>
+            </li>
+            <li class="lista__item">
+                <img src="img/GUJ.svg" alt="">
+                <a href="#" class="lista__link">Neymar</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 16,
+            slidesPerView: 2.7,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
